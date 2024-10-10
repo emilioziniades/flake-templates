@@ -4,7 +4,7 @@
   outputs = {self}: {
     templates = {
       dev-shell = {
-        path = ./dev-shell/flake.nix;
+        path = ./dev-shell;
         description = "A flake for arbitrary development shells";
       };
     };
